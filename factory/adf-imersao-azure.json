@@ -1,0 +1,9 @@
+{
+	"name": "adf-imersao-azure",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b445861f-3900-41b6-aca8-fa216da0343e",
+		"tenantId": "48682a8c-f856-4eb8-abe7-0acb422feaab"
+	}
+}
