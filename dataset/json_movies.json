@@ -1,0 +1,30 @@
+{
+	"name": "json_movies",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_api_new_york_times",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tokenAPI": {
+				"type": "string",
+				"defaultValue": "2Al0km1MMP6dElGiojlqinJ5bULtKq1s "
+			},
+			"relativeURL": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@concat(dataset().relativeURL,'&api-key=',dataset().tokenAPI)",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	}
+}
