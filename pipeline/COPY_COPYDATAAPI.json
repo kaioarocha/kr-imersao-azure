@@ -3,42 +3,6 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
-				"type": "Copy",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"source": {
-						"type": "JsonSource",
-						"storeSettings": {
-							"type": "HttpReadSettings",
-							"requestMethod": "GET"
-						},
-						"formatSettings": {
-							"type": "JsonReadSettings"
-						}
-					},
-					"enableStaging": false
-				},
-				"inputs": [
-					{
-						"referenceName": "json_movies",
-						"type": "DatasetReference",
-						"parameters": {
-							"tokenAPI": "2Al0km1MMP6dElGiojlqinJ5bULtKq1s ",
-							"relativeURL": "articlesearch.json?fq=section_name%3A\"Movies\" AND type_of_material%3A\"Review\"&sort=newest&page=0"
-						}
-					}
-				]
-			},
-			{
 				"name": "API_TO_DATALAKE",
 				"type": "Copy",
 				"dependsOn": [],
