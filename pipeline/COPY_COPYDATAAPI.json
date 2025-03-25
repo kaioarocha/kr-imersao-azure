@@ -1,5 +1,5 @@
 {
-	"name": "API_TO_DATALAKE",
+	"name": "COPY_COPYDATAAPI",
 	"properties": {
 		"activities": [
 			{
