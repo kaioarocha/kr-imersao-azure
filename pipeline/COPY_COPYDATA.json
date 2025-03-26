@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "excel_to_datalake",
+				"name": "excel_to_azure_sql",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
