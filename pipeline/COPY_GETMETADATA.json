@@ -1,5 +1,5 @@
 {
-	"name": "COPY_GETMETADADATA",
+	"name": "COPY_GETMETADATA",
 	"properties": {
 		"activities": [
 			{
