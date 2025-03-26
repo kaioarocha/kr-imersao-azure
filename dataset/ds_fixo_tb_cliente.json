@@ -1,10 +1,6 @@
 {
 	"name": "ds_fixo_tb_cliente",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "ls_azure_sql_database_power_query",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
