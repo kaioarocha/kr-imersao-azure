@@ -8,5 +8,6 @@ Treinamento de provisionamento do ambiente Azure:
 - Azure Key Vault
 
 Processos criados no ADF:
-- conexão a API para extrair dados do NY Times e armazenar dados no Azure Data Lake
-- 
+- Inserção de dados de planilha excel no Azure SQL Database
+- Extração de dados da API do NY Times e armazenar dados no Azure Data Lake
+- Recuperação de metadados com os nomes e extensão de arquivos existentes em diretório no Data Lake
