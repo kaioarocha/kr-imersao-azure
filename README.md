@@ -1,11 +1,13 @@
 # kr-imersao-azure
 
-Treinamento de provisionamento do ambiente Azure:
+Provisionamento dos recursos do ambiente Azure:
 - Azure Data Factory
 - Azure SQL Database
 - Azure Data Lake
 - Linked Service
 - Azure Key Vault
+- Azure Databricks
+- Linked Service
 
 Processos criados no ADF:
 - Inserção de dados de planilha excel no Azure SQL Database
