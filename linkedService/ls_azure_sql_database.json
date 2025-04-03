@@ -1,0 +1,27 @@
+{
+	"name": "ls_azure_sql_database",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-imersao-azure.database.windows.net",
+			"database": "sqldb-imersao-azure",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "imersaoazure",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_azure_key_vault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secret-db-azure"
+			},
+			"alwaysEncryptedSettings": {
+				"alwaysEncryptedAkvAuthType": "ManagedIdentity"
+			}
+		}
+	}
+}

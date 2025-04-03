@@ -1,0 +1,6 @@
+{
+	"name": "ir-imersaoAzure",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
