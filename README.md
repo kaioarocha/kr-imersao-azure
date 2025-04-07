@@ -7,7 +7,6 @@ Provisionamento dos recursos do ambiente Azure:
 - Linked Service
 - Azure Key Vault
 - Azure Databricks
-- Linked Service
 
 Processos criados no ADF:
 - Inserção de dados de planilha excel no Azure SQL Database
