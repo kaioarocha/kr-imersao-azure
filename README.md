@@ -8,10 +8,12 @@ Provisionamento dos recursos do ambiente Azure:
 - Azure Key Vault
 - Azure Databricks
 
-Processos criados no ADF:
+Azure Data Factory
 - Inserção de dados de planilha excel no Azure SQL Database
-- Extração de dados da API do NY Times (https://developer.nytimes.com/) e armazenar dados no Azure Data Lake
-- Recuperação de metadados com os nomes e extensão de arquivos existentes em diretório no Data Lake
+- Extração de dados da API do NY Times (https://developer.nytimes.com/) e armazenamento dados no Azure Data Lake
 
 Databricks:
+- Configuração para acesso dos containers do Data Lake
+- Configuração para acessar o Azure SQL Database
+  
 Notebooks em desenvolvimento ...
