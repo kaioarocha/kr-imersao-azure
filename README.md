@@ -20,5 +20,5 @@ Databricks:
 - Configuração para acesso dos containers do Data Lake [`clique aqui`](dbw-imersaoazure/Connection_Data_Lake.py)
 - Configuração para acessar o Azure SQL Database [`clique aqui`](dbw-imersaoazure/Connection_DB.py)
 
-  Notebooks de configuração de arquitura em Delta .. [EM DESENVOLVIMENTO]. 
+  Notebooks de configuração de arquitetura em formato Delta .. [EM DESENVOLVIMENTO]. 
 
