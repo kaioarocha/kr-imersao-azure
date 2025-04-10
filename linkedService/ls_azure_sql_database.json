@@ -1,6 +1,5 @@
 {
 	"name": "ls_azure_sql_database",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureSqlDatabase",
@@ -17,11 +16,12 @@
 					"referenceName": "ls_azure_key_vault",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "secret-db-azure"
+				"secretName": "secret-db-azurepass"
 			},
 			"alwaysEncryptedSettings": {
 				"alwaysEncryptedAkvAuthType": "ManagedIdentity"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
